@@ -1,12 +1,14 @@
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
+
 public class MatrixTest {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
 
         try {
             // Input for Matrix A
+            
             System.out.println("Matrix A");
             System.out.print("Enter number of rows: ");
             int rowA = scan.nextInt();
