@@ -16,7 +16,7 @@ public class MatrixTest {
             System.out.print("Enter number of columns: ");
             int colA = scan.nextInt();
             int[][] matrixA = new int[rowA][colA];
-            System.out.println("Enter the values for Matrix A:");
+            System.out.println("Enter the values for Matrix A");
             for (int i = 0; i < rowA; i++) {
                 for (int j = 0; j < colA; j++) {
                     matrixA[i][j] = scan.nextInt();

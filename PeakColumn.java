@@ -30,6 +30,7 @@ public class PeakColumn {
             System.out.println("Matrix size cannot be negative.");
         } catch (Exception e) {
             System.out.println("Unexpected error occurred: " + e.getMessage());
+            sc.close();
         }
         return matrice;
     }
@@ -83,6 +84,8 @@ public class PeakColumn {
             peakCols(matrice);
         } catch (Exception e) {
             System.out.println("Unexpected error occurred: " + e.getMessage());
+    
         }
     }
+   
 }
