@@ -25,11 +25,11 @@ public class PeakColumn {
         } catch (InputMismatchException e) {
             System.out.println("Invalid input. Please enter integers only.");
             sc.next(); 
-            
+
         } catch (NegativeArraySizeException e) {
             System.out.println("Matrix size cannot be negative.");
         } catch (Exception e) {
-            System.out.println("An unexpected error occurred: " + e.getMessage());
+            System.out.println("Unexpected error occurred: " + e.getMessage());
         }
         return matrice;
     }
@@ -57,7 +57,7 @@ public class PeakColumn {
         return true;
     }
 
-    // Method to find peak columns and print it with its position
+    // Method to find peak columns and print with its position
     public static void peakCols(int[][] matrice) {
         if (matrice == null) {
             System.out.println("No valid matrix input provided.");
@@ -82,7 +82,7 @@ public class PeakColumn {
             System.out.println("The Peak-Column/s: ");
             peakCols(matrice);
         } catch (Exception e) {
-            System.out.println("An unexpected error occurred: " + e.getMessage());
+            System.out.println("Unexpected error occurred: " + e.getMessage());
         }
     }
 }

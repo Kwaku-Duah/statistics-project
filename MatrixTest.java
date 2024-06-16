@@ -6,6 +6,7 @@ public class MatrixTest {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
 
+
         try {
             // Input for Matrix A
             
@@ -54,7 +55,7 @@ public class MatrixTest {
                 System.out.println();
             }
 
-            // Check if multiplication is possible
+            // Check if multiplication is possible first, else terminate
             if (colA != rowB) {
                 System.out.println("Matrix Multiplication Failure: columns in Matrix A should be equal to rows in Matrix B");
                 return;
